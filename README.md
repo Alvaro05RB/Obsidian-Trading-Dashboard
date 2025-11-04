@@ -93,7 +93,6 @@ A complete review framework organized by **year**, including:
 - Daily
 - Monthly
 - Weekly
-- Yearly templates
 
 Each section can be duplicated annually.  
 There’s no code dependency — feel free to rename and customize as you wish.
