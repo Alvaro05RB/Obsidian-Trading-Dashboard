@@ -65,6 +65,17 @@ The **Portfolio Manager** separates **short-term trading performance** from **lo
 > All portfolio data is stored at  
 > `Trades/Trade/PortfolioManager.md`
 
+### Key Metrics
+
+The Portfolio Manager automatically computes several key performance indicators to help assess long-term investment quality and risk-adjusted performance:
+
+- **ROI (Return on Investment):** Measures overall profitability based on realized gains and deposits.  
+- **Maximum Drawdown:** Tracks the largest peak-to-trough decline in portfolio balance.  
+- **Sharpe Ratio:** Evaluates risk-adjusted returns using total volatility.  
+- **Sortino Ratio:** Similar to Sharpe but focuses only on downside risk, offering a clearer view of consistency in positive returns.  
+
+These metrics are updated automatically whenever you record a deposit, withdrawal, or closed investment.
+
 Since Obsidian works offline, market prices aren’t live-updated — but closed trade data keeps portfolio performance consistent with your logs.
 
 ---
