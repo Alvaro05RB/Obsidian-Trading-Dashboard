@@ -1,4 +1,4 @@
-# Obsidian-Trading-Dashboard
+# Obsidian Trading Dashboard
 
 A complete **trade logging and analysis system** built in **Obsidian**.  
 The project combines detailed trade journaling with automated performance tracking and visualization, offering a full overview of both trading and long-term portfolio performance.
