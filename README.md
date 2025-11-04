@@ -139,6 +139,11 @@ To ensure the dashboard and all visualizations work properly, install the follow
 - **Force Note View Mode**  
 Add the following note to open in preview mode:  Portfolio Manager
 
+### Snippets configuration
+
+Once project has been loaded for the first time.
+Copy and paste PortfolioManager.css inside .obsidian/snippets
+
 ---
 
 ## 🧩 Summary
