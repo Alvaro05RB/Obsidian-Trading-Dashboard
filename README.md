@@ -36,12 +36,12 @@ The dashboard automatically detects new folders for each year (just name them `Y
 ### Features:
 - View overall trading performance.
 - Filter by:
-- Year
-- Month
-- Day
-- Custom date ranges
-- System type
-- Trade direction (Long/Short)
+  - Year
+  - Month
+  - Day
+  - Custom date ranges
+  - System type
+  - Trade direction (Long/Short)
 - Switchable performance charts:
 - Yearly, monthly, or daily PnL & R visualization.
 - View all trades meeting the selected criteria in a table.
