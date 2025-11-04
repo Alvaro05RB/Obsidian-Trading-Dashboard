@@ -87,11 +87,12 @@ It’s a lightweight alternative view of trading activity — still in early dev
 
 ---
 
-## 🧠 Morning market analysis and End-of-Day Review
+## 🧠 Market analysis
 
 A complete review framework organized by **year**, including:
 - Daily
 - Monthly
+- Weekly
 - Yearly templates
 
 Each section can be duplicated annually.  
