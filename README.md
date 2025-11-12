@@ -113,7 +113,7 @@ These are for documentation and organization purposes; no code dependencies exis
 
 ## 🧩 Required Obsidian Plugins
 
-To ensure the dashboard and all visualizations work properly, install the following Obsidian community plugins:
+To ensure the dashboard and all visualizations work properly, dashboard uses the following Obsidian community plugins:
 
 | Plugin | Purpose |
 |--------|----------|
@@ -124,25 +124,6 @@ To ensure the dashboard and all visualizations work properly, install the follow
 | **Force Note View Mode** | Forces notes (like the Portfolio Manager) to open in a specific view mode. |
 | **Homepage** | Defines a custom default note to open when launching the vault (set to Dashboard). |
 | **Iconize** | Adds icons to folders and files for improved visual organization. |
-
-### Plugin Configuration
-
-- **DataView**  
-  Enable the following options in settings:  
-  - ✅ Inline queries  
-  - ✅ JavaScript queries  
-  - ✅ Inline JavaScript queries  
-
-- **Homepage**  
-  Set the default homepage to:  Dashboard
-  
-- **Force Note View Mode**  
-Add the following note to open in preview mode:  Portfolio Manager
-
-### Snippets configuration
-
-Once project has been loaded for the first time.
-Copy and paste PortfolioManager.css inside .obsidian/snippets
 
 ---
 
@@ -155,6 +136,20 @@ This dashboard brings together:
 - Yearly journaling and system documentation  
 
 All within an **Obsidian-based**, fully offline structure designed for traders & investors who want transparency, order, and performance insights.
+
+---
+
+## ⚙️ Installation
+
+Download the project from GitHub.
+
+Inside the main folder, rename the folder obsidianConfig to ".obsidian" .
+
+Open the folder as a vault in Obsidian.
+
+When prompted, enable community plugins to activate all dashboard features.
+
+That’s it, the dashboard will load with all settings, snippets, and plugin configurations ready to use.
 
 ---
 
