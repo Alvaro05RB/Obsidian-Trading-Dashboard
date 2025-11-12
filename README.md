@@ -20,7 +20,7 @@ Example trades are included as samples.
 2. Fill in the trade details.
 3. Save it inside the corresponding `Trades/Trade/` folder following the naming convention: TICKERDD-MM-YYYY
 4. Paste a screenshot of the trade inside the note, then delete the image from the note.
-- The image will appear in the root directory — move it to the correct date folder in `Charts/`.
+- The image will appear in the root directory — move it to the correct date folder in `Charts/YYYY`.
 - Rename the image to match the trade note’s name.
 5. Back in the trade note:
 - Click the missing image link (`TICKERDD-MM-YY.png could not be found`).
