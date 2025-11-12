@@ -1,0 +1,208 @@
+{
+  "main": {
+    "id": "5324373015726ba8",
+    "type": "split",
+    "children": [
+      {
+        "id": "4509724f8bf84da7",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "e7a7b303c61786dc",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Analysis/2025/11-November/Daily anlysis/10-11-2025.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "10-11-2025"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "8c58db343ac0d652",
+    "type": "mobile-drawer",
+    "children": [
+      {
+        "id": "631ed18ea4b76322",
+        "type": "leaf",
+        "state": {
+          "type": "file-explorer",
+          "state": {
+            "sortOrder": "alphabetical",
+            "autoReveal": false
+          },
+          "icon": "lucide-folder-closed",
+          "title": "Files"
+        }
+      },
+      {
+        "id": "326353c344c7d24d",
+        "type": "leaf",
+        "state": {
+          "type": "search",
+          "state": {
+            "query": "",
+            "matchingCase": false,
+            "explainSearch": false,
+            "collapseAll": false,
+            "extraContext": false,
+            "sortOrder": "alphabetical"
+          },
+          "icon": "lucide-search",
+          "title": "Search"
+        }
+      },
+      {
+        "id": "fa457b07211b5e25",
+        "type": "leaf",
+        "state": {
+          "type": "tag",
+          "state": {
+            "sortOrder": "frequency",
+            "useHierarchy": true,
+            "showSearch": false,
+            "searchQuery": ""
+          },
+          "icon": "lucide-tags",
+          "title": "Tags"
+        }
+      },
+      {
+        "id": "f6a2f2f2cdf3d725",
+        "type": "leaf",
+        "state": {
+          "type": "bookmarks",
+          "state": {},
+          "icon": "lucide-bookmark",
+          "title": "Bookmarks"
+        }
+      }
+    ],
+    "currentTab": 0
+  },
+  "right": {
+    "id": "b8c551aad1b732c8",
+    "type": "mobile-drawer",
+    "children": [
+      {
+        "id": "c915b5512fd418ae",
+        "type": "leaf",
+        "state": {
+          "type": "backlink",
+          "state": {
+            "file": "Analysis/2025/10-October/Daily anlysis/12-10-2025.md",
+            "collapseAll": false,
+            "extraContext": false,
+            "sortOrder": "alphabetical",
+            "showSearch": false,
+            "searchQuery": "",
+            "backlinkCollapsed": false,
+            "unlinkedCollapsed": true
+          },
+          "icon": "links-coming-in",
+          "title": "Backlinks"
+        }
+      },
+      {
+        "id": "d738ac91ab775fd4",
+        "type": "leaf",
+        "state": {
+          "type": "outgoing-link",
+          "state": {
+            "file": "Dashboard.md",
+            "linksCollapsed": false,
+            "unlinkedCollapsed": true
+          },
+          "icon": "links-going-out",
+          "title": "Outgoing links"
+        }
+      },
+      {
+        "id": "77d0561286d4e104",
+        "type": "leaf",
+        "state": {
+          "type": "outline",
+          "state": {
+            "file": "Dashboard.md",
+            "followCursor": false,
+            "showSearch": false,
+            "searchQuery": ""
+          },
+          "icon": "lucide-list",
+          "title": "Outline"
+        }
+      },
+      {
+        "id": "7f3133608080946d",
+        "type": "leaf",
+        "state": {
+          "type": "calendar",
+          "state": {},
+          "icon": "lucide-ghost",
+          "title": "calendar"
+        }
+      }
+    ],
+    "currentTab": 0
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "bases:Create new base": false,
+      "homepage:Open homepage": false,
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "table-editor-obsidian:Advanced Tables Toolbar": false
+    }
+  },
+  "active": "e7a7b303c61786dc",
+  "lastOpenFiles": [
+    "Trading Dashboard.md",
+    "Analysis/2025/11-November/Daily anlysis/10-11-2025.md",
+    "Images/Analysis Charts/2025-November.png",
+    "Images/Analysis Charts/2025-October.png",
+    "Analysis/2025/11-November/Daily anlysis/09-11-2025.md",
+    "Analysis/2025/11-November/Daily anlysis/08-11-2025.md",
+    "Analysis/2025/11-November/Daily anlysis/05-11-2025.md",
+    "Analysis/2025/11-November/Daily anlysis/04-11-2025.md",
+    "Analysis/2025/11-November/Weekly outlook/03-09.md",
+    "Analysis/2025/10-October/Weekly outlook/06-12.md",
+    "Analysis/2025/10-October/Daily anlysis/31-10-2025.md",
+    "Portfolio Manager.md",
+    "Analysis/2025/11-November/Daily anlysis/Template.md",
+    "Analysis/2025/11-November/Daily anlysis/03-11-2025.md",
+    "Analysis/2025/11-November/Daily anlysis/02-11-2025.md",
+    "Analysis/2025/11-November/Daily anlysis/01-11-2025.md",
+    "Analysis/2025/10-October/Daily anlysis/29-10-2025.md",
+    "Analysis/2025/10-October/Daily anlysis/28-10-2025.md",
+    "Analysis/2025/10-October/Daily anlysis/27-10-2025.md",
+    "Analysis/2025/10-October/Daily anlysis/26-10-2025.md",
+    "Analysis/2025/10-October/Daily anlysis/25-10-2025.md",
+    "Analysis/2025/10-October/Daily anlysis/24-10-2025.md",
+    "Analysis/2025/10-October/Daily anlysis/23-10-2025.md",
+    "Analysis/2025/10-October/Daily anlysis/22-10-2025.md",
+    "Analysis/2025/10-October/Daily anlysis/21-10-2025.md",
+    "Analysis/2025/10-October/Daily anlysis/20-10-2025.md",
+    "Analysis/2025/10-October/Daily anlysis/19-10-2025.md",
+    "Trades Summary.base",
+    "Trades/Charts/2025/SOL 03-10-2025.png",
+    "Images/Banner.png",
+    "Images/Banner.gif",
+    "Trades/Charts/2025/BTC 02-05-2025.png",
+    "Trades/Charts/2025/ETH 13-05-2025.png",
+    "Trades/Charts/2025/ETH 11-07-2025.jpg",
+    "Trades/Charts/2025/ETH 04-06-2025.png",
+    "Pasted image 20250722184607.png"
+  ]
+}

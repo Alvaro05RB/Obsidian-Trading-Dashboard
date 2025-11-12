@@ -1,0 +1,12 @@
+{
+  "cssTheme": "",
+  "accentColor": "#3fa0d5",
+  "enabledCssSnippets": [
+    "obsidian",
+    "banner",
+    "properties-hide",
+    "url",
+    "table",
+    "PortfolioManager"
+  ]
+}

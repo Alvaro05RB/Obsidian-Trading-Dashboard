@@ -1,0 +1,282 @@
+.obsidian-banner .banner-image.draggable {
+    margin: 0 !important;
+}
+body {
+    --metadata-display-reading: none;
+}
+.portfolio-container {
+    background-color: #222;
+    color: #ccc;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+    padding: 20px;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    gap: 0px;
+}
+.portfolio-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.portfolio-value {
+    font-size: 2.5em;
+    font-weight: bold;
+    color: #fff;
+}
+.portfolio-change {
+    font-size: 1.2em;
+    font-weight: bold;
+}
+.portfolio-change.positive {
+    color: #4CAF50;
+}
+.portfolio-change.negative {
+    color: #f44336;
+}
+.action-buttons {
+    display: flex;
+    gap: 10px;
+}
+.action-btn {
+    padding: 10px 20px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 16px;
+    transition: background-color 0.3s;
+}
+.action-btn:hover {
+    opacity: 0.9;
+}
+.action-btn.deposit {
+    background-color: #28a745;
+}
+.action-btn.withdraw {
+    background-color: #dc3545;
+}
+.action-btn.trade {
+    background-color: #E65100;
+}
+.timeframe-buttons {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 10px;
+}
+.timeframe-btn {
+    padding: 8px 16px;
+    cursor: pointer;
+    background-color: #444;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 14px;
+    transition: background-color 0.3s;
+}
+.timeframe-btn.active {
+    background-color: #007bff;
+}
+.timeframe-btn:hover {
+    background-color: #666;
+}
+.chart-type-buttons {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 10px;
+}
+.chart-type-btn {
+    padding: 8px 16px;
+    cursor: pointer;
+    background-color: #444;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 14px;
+    transition: background-color 0.3s;
+}
+.chart-type-btn.active {
+    background-color: #007bff;
+}
+.chart-type-btn:hover {
+    background-color: #666;
+}
+.portfolio-actions {
+    margin-top: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+.input-group {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    padding: 15px;
+    background-color: #2a2a2a;
+    border-radius: 5px;
+    flex-wrap: wrap;
+    position: relative;
+}
+.input-group input {
+    padding: 8px 12px;
+    border: 1px solid #444;
+    border-radius: 3px;
+    background-color: #333;
+    color: #fff;
+    font-size: 16px;
+    min-width: 120px;
+    flex: 1;
+}
+.input-group label {
+    min-width: 80px;
+    color: #ccc;
+}
+.input-group .error-message {
+    color: #f44336;
+    font-size: 14px;
+    margin-top: 5px;
+    position: absolute;
+    bottom: -20px;
+    left: 0;
+    width: 100%;
+}
+.section-container {
+    margin-top: 10px;
+}
+.table-wrapper {
+    overflow-x: auto;
+    background-color: #222;
+}
+.movements-table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: transparent;
+}
+.movements-table th,
+.movements-table td {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid #444;
+}
+.movements-table th {
+    background-color: #333;
+    color: #fff;
+    font-weight: bold;
+}
+.chart-container {
+    height: 400px;
+}
+.stats-table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: transparent;
+}
+.stats-table td {
+    padding: 8px;
+    color: #ccc;
+    border-bottom: 1px solid #444;
+}
+.year-selector {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    min-width: 0;
+    vertical-align: middle;
+}
+.year-selector label {
+    color: #ccc;
+    white-space: nowrap;
+}
+.year-selector select {
+    padding: 8px 40px 8px 15px; /* Adjusted padding: less on left, more on right for arrow */
+    background-color: #444;
+    border: 1px solid #555; /* Added subtle border */
+    border-radius: 5px;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+    text-align: left; /* Changed from center to left */
+    min-width: 100px; /* Reduced minimum width */
+    width: auto;
+    max-width: 200px;
+    box-sizing: border-box;
+    line-height: 1.4; /* Added line-height for better vertical centering */
+    height: auto; /* Ensure height adjusts to content */
+    
+    /* Keep the custom arrow but with proper spacing */
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    
+    /* Add custom dropdown arrow */
+    background-image: url("data:image/svg+xml;charset=UTF-8,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='white' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3e%3cpolyline points='6 9 12 15 18 9'%3e%3c/polyline%3e%3c/svg%3e");
+    background-repeat: no-repeat;
+    background-position: right 10px center;
+    background-size: 20px;
+    
+    /* Ensure text doesn't overlap with arrow */
+    padding-right: 35px;
+}
+
+/* Add hover effect for the select */
+.year-selector select:hover {
+    background-color: #555;
+    border-color: #666;
+}
+
+/* Focus state for accessibility */
+.year-selector select:focus {
+    outline: 2px solid #007bff;
+    outline-offset: 2px;
+}
+
+@media (max-width: 600px) {
+    .portfolio-header {
+        flex-direction: column;
+        gap: 15px;
+    }
+    .portfolio-header > div {
+        text-align: center !important;
+    }
+    .action-buttons {
+        flex-direction: column;
+    }
+    .timeframe-buttons {
+        flex-direction: column;
+    }
+    .chart-type-buttons {
+        flex-direction: column;
+    }
+    .portfolio-actions {
+        margin-top: 10px;
+        flex-direction: column;
+    }
+    .action-btn.deposit, .action-btn.withdraw {
+        width: 100%;
+    }
+    .action-btn.trade {
+        width: 100%;
+    }
+    .input-group {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .input-group input,
+    .input-group button {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+    .year-selector {
+        flex-direction: column;
+    }
+    .year-selector select {
+        width: 100%;
+    }
+}
+.positive-pnl { color: #4CAF50; }
+.negative-pnl { color: #f44336; }
+.section-container h3 {
+    margin: 0;
+}

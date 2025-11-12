@@ -1,0 +1,12 @@
+{
+  "types": {
+    "aliases": "aliases",
+    "cssclasses": "multitext",
+    "tags": "tags",
+    "entry_date": "date",
+    "Strategy": "multitext",
+    "Risk": "number",
+    "RR": "number",
+    "Direction": "multitext"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "debounceTimeout": 300,
+  "ignoreOpenFiles": false,
+  "ignoreForceViewAll": false,
+  "folders": [],
+  "files": [
+    {
+      "filePattern": "Dashboard",
+      "viewMode": "obsidianUIMode: preview"
+    },
+    {
+      "filePattern": "Portfolio Manager",
+      "viewMode": "obsidianUIMode: preview"
+    }
+  ]
+}
